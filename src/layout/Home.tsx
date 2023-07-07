@@ -7,9 +7,9 @@ const Home = () => {
     <div className="flex items-center justify-between h-[80vh] w-full">
       <div className="w-2/3">
         <h1 className="text-9xl font-black">
-          <div className="relative ml-5">
-            <span className="relative z-0 text-white text-[6rem]">Hello!</span>
-            <div className="absolute top-12 -left-4 -z-10 bg-yellow-400 w-[320px] h-[58px] rounded-2xl"></div>
+          <div className="relative">
+            <span className="relative z-0 text-gray-600 text-[7rem]">Hello!</span>
+            <div className="absolute top-10 -left-4 -z-10 bg-gray-200 w-[360px] h-[60px] rounded-xl"></div>
           </div>
           <span className="block text-black">I'm Anass</span>
         </h1>
