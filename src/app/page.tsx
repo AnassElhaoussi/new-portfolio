@@ -4,7 +4,7 @@ import Home from '@/layout/Home'
 
 export default function App() {
   return (
-    <main>
+    <main className="px-20">
       <Navigation />
       <Home />
     </main>

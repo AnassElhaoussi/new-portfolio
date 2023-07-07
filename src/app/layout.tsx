@@ -1,5 +1,5 @@
 import './globals.css'
-import { poppins } from '@/font'
+import { inter } from '@/font'
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
